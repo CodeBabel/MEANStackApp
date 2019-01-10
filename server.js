@@ -21,7 +21,8 @@ app.get('*', function(req,res){
   res.render('index');
 });
 
-mongoose.connect('mongodb://localhost/codebabeldashboard');
+//mongoose.connect('mongodb://localhost/codebabeldashboard');
+mongoose.connect('mongodb://userdev1:userdev1@ds153394.mlab.com:53394/codebabeldashboard');
 
 var con = mongoose.connection;
 con.once('open', function() {
