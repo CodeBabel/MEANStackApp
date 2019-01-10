@@ -32,6 +32,12 @@ console.log('updated the database')
 
 });
 
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+app.listen(port);
 
 
-app.listen(3000);
+
+//app.listen(3000);
