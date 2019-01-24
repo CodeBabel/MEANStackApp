@@ -53,7 +53,7 @@ describe("get authors", function(){
     describe("get authors", function(){
         it("should never be empty since authors are seeded", function(done){ 
             //mongoose.connect('mongodb://localhost/codebabeldashboard', function(){
-            mongoose.connect('mongo://userdev1:userdev1@ds153394.mlab.com:53394/codebabeldashboard', function(){
+            mongoose.connect('mongodb://userdev1:userdev1@ds153394.mlab.com:53394/codebabeldashboard', function(){
                 //resetAuthors(function(){
                     //authorModel.seedAuthors(function() {
                         mongoose.model('Author').find({}).exec(function(error, authorsList) {
