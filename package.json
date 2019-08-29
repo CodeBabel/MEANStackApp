@@ -4,7 +4,7 @@
   "description": "Sample Dashboard App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha 'test/**/*.js' --recursive --timeout 60000 --exit"
   },
   "author": "Kaviya Kulothungan",
   "license": "ISC",
