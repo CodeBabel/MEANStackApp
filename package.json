@@ -4,7 +4,7 @@
   "description": "Sample Dashboard App",
   "main": "index.js",
   "scripts": {
-    "test": "mocha 'test/**/*.ts'"
+    "test": "mocha 'test/*.js'"
   },
   "author": "Kaviya Kulothungan",
   "license": "ISC",
