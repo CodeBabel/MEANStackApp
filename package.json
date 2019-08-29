@@ -4,7 +4,7 @@
   "description": "Sample Dashboard App",
   "main": "index.js",
   "scripts": {
-    "test": "mocha 'test/*.js'"
+    "test": "mocha 'test/**/*.js' --timeout 60000 --exit",
   },
   "author": "Kaviya Kulothungan",
   "license": "ISC",
