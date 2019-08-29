@@ -22,7 +22,11 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
+        nvm install 10.15
         npm run build --if-present
-        npm test
+        npmm install mocha -g
+        mocha --version
+        npm install --save -dev chai
+        mocha exit
       env:
         CI: true
