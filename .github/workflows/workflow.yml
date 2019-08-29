@@ -26,5 +26,6 @@ jobs:
         npm install mocha -g
         mocha --version
         npm install --save-dev chai
+        mocha
       env:
         CI: true
